@@ -1,0 +1,170 @@
+{
+  "identity": {
+    "name": "E1 - The Anti-AI Designer",
+    "mission": "Create a unified creative services platform that feels like a high-end studio, not a bazaar.",
+    "principles": [
+      "Fusion over Imitation: Mix SaaS precision with Art Gallery aesthetics.",
+      "Emotion First: Every interaction must build trust and creative flow.",
+      "Content is King: The portfolio work is the hero; UI frames it.",
+      "Zoom In: Use bold close-ups for service details.",
+      "Negative Space: Luxurious spacing to signal premium quality."
+    ]
+  },
+  "theme_strategy": {
+    "mode": "hybrid",
+    "default": "dark",
+    "logic": "Default to 'Studio Dark' (Zinc-950) for that immersive editing-suite feel. Toggle available for 'Agency Light' (White/Zinc-50).",
+    "emotional_archetype": "Archetype 5 (Jewel & Luxury) mixed with Archetype 2 (Electric)",
+    "palette": {
+      "primary": {
+        "name": "Electric Indigo",
+        "hex": "#6366f1",
+        "tailwind": "indigo-500",
+        "usage": "Primary CTAs, Active States, Brand Accents"
+      },
+      "secondary": {
+        "name": "Creative Pink",
+        "hex": "#ec4899",
+        "tailwind": "pink-500",
+        "usage": "Gradients, Highlights, 'New' badges"
+      },
+      "background_dark": {
+        "hex": "#09090b",
+        "tailwind": "zinc-950",
+        "usage": "Main background in Dark Mode"
+      },
+      "surface_dark": {
+        "hex": "#18181b",
+        "tailwind": "zinc-900",
+        "usage": "Cards, Sidebars in Dark Mode"
+      },
+      "background_light": {
+        "hex": "#ffffff",
+        "tailwind": "white",
+        "usage": "Main background in Light Mode"
+      },
+      "surface_light": {
+        "hex": "#f4f4f5",
+        "tailwind": "zinc-100",
+        "usage": "Secondary backgrounds in Light Mode"
+      },
+      "text_primary_dark": "#fafafa",
+      "text_secondary_dark": "#a1a1aa",
+      "text_primary_light": "#18181b",
+      "text_secondary_light": "#71717a"
+    }
+  },
+  "typography": {
+    "headings": {
+      "family": "Plus Jakarta Sans, sans-serif",
+      "weights": ["600", "700", "800"],
+      "usage": "Hero titles, Section headers, Card titles. Tight tracking (-0.02em)."
+    },
+    "body": {
+      "family": "Satoshi, Inter, sans-serif",
+      "weights": ["400", "500"],
+      "usage": "Paragraphs, UI labels, Inputs. Normal tracking."
+    },
+    "mono": {
+      "family": "JetBrains Mono, monospace",
+      "usage": "Pricing figures, Order IDs, Technical specs."
+    },
+    "scale": {
+      "h1": "text-5xl md:text-7xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-5xl font-bold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold",
+      "body_lg": "text-lg md:text-xl leading-relaxed",
+      "body_base": "text-base leading-relaxed"
+    }
+  },
+  "layout_system": {
+    "spacing": {
+      "philosophy": "Generous. Use 2x standard spacing.",
+      "container_padding": "px-6 md:px-12 lg:px-24",
+      "section_gap": "gap-16 md:gap-32"
+    },
+    "grids": {
+      "marketing": "Bento Grid (Mode A). Asymmetrical. Mix of col-span-4, col-span-8.",
+      "dashboard": "Control Room Grid (Mode B). Dense, data-focused. col-span-1 to col-span-3.",
+      "listing": "Masonry or Uniform Grid with 'Tracing Beam' hover effects."
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "rounded-full px-8 py-6 text-base font-semibold shadow-[0_0_20px_rgba(99,102,241,0.3)] hover:shadow-[0_0_30px_rgba(99,102,241,0.5)] transition-all duration-300",
+      "secondary": "rounded-full px-8 py-6 bg-zinc-800/50 hover:bg-zinc-800 text-white border border-white/10 backdrop-blur-md transition-all"
+    },
+    "cards": {
+      "style": "Glassmorphism (Crystal). bg-zinc-900/40 backdrop-blur-xl border border-white/10 hover:border-indigo-500/50 transition-colors duration-300",
+      "radius": "rounded-2xl"
+    },
+    "inputs": {
+      "style": "bg-zinc-900/50 border-white/10 focus:border-indigo-500 focus:ring-indigo-500/20 rounded-xl h-12"
+    }
+  },
+  "visual_enhancers": {
+    "gradients": "Use subtle 'Aurora' gradients (Indigo to Pink) in backgrounds, heavily blurred (blur-3xl), opacity-20.",
+    "borders": "1px solid white/10. Active elements get 'Tracing Beam' or glowing borders.",
+    "shadows": "Colored shadows for primary actions. Deep ambient shadows for modals.",
+    "textures": "Subtle noise overlay on dark backgrounds to prevent banding and add 'film' grain."
+  },
+  "motion": {
+    "library": "framer-motion",
+    "scroll": "lenis (smooth scrolling mandatory)",
+    "transitions": {
+      "hover": "transition-all duration-300 ease-out",
+      "page": "opacity-0 translate-y-4 -> opacity-100 translate-y-0 (staggered)"
+    },
+    "micro_interactions": "Buttons scale down slightly (0.98) on click. Links have underline slide-in."
+  },
+  "assets": {
+    "images": {
+      "video_editing": {
+        "url": "https://images.unsplash.com/photo-1757845701047-69080f6b1139?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHx2aWRlbyUyMGVkaXRpbmclMjB0aW1lbGluZSUyMG1vbml0b3J8ZW58MHx8fHwxNzY2NTA2NjA3fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Professional video editing timeline on monitor",
+        "category": "Service Category"
+      },
+      "graphic_design": {
+        "url": "https://images.unsplash.com/photo-1501159873713-dc65286617cc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwxfHxjcmVhdGl2ZSUyMGdyYXBoaWMlMjBkZXNpZ24lMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzY2NTA2NjA5fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Creative designer workspace",
+        "category": "Service Category"
+      },
+      "audio_production": {
+        "url": "https://images.unsplash.com/photo-1760780567530-389d8a3fba75?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzl8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBhdWRpbyUyMHJlY29yZGluZyUyMHN0dWRpb3xlbnwwfHx8fDE3NjY1MDY2MTF8MA&ixlib=rb-4.1.0&q=85",
+        "alt": "Professional recording studio",
+        "category": "Service Category"
+      },
+      "hero_bg": {
+        "url": "https://images.unsplash.com/photo-1621111848501-8d3634f82336?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxjcmVhdGl2ZSUyMGdyYXBoaWMlMjBkZXNpZ24lMjB3b3Jrc3BhY2V8ZW58MHx8fHwxNzY2NTA2NjA5fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Abstract creative workspace background",
+        "category": "Hero Section"
+      }
+    },
+    "icons": "Lucide React (default). Use thin strokes (1.5px) for elegance."
+  },
+  "instructions_to_main_agent": {
+    "general": "You are building a high-end creative marketplace. Do not make it look like a generic admin panel. Use the 'Glassmorphism' and 'Bento' strategies defined above.",
+    "setup": [
+      "Install 'framer-motion', 'clsx', 'tailwind-merge', 'lucide-react', '@radix-ui/react-slot'.",
+      "Configure Tailwind with the colors and fonts defined.",
+      "Ensure 'dark' class is applied to the html/body by default or via a provider."
+    ],
+    "pages": {
+      "landing": "Use the 'Hero BG' image with a heavy gradient overlay. Big bold H1. Bento grid for services.",
+      "dashboard": "Use the 'Control Room' grid. Sidebar should be glassmorphic. Content area clean.",
+      "service_detail": "Hero image at top (80vh). Sticky booking card on right. Content on left."
+    },
+    "critical_rules": [
+      "NO generic gradients.",
+      "NO 'Inter' for headings.",
+      "NO transparent backgrounds without blur.",
+      "ALWAYS use data-testid attributes."
+    ]
+  },
+  "universal_guidelines": {
+    "anti_slop": "Avoid generic centered layouts. Use asymmetry. Use noise textures.",
+    "interactions": "Every button must have a hover state (scale, color shift, or shadow bloom).",
+    "spacing": "When in doubt, double the padding.",
+    "accessibility": "Ensure text contrast is > 4.5:1. Use 'sr-only' for icon-only buttons."
+  }
+}
